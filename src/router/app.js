@@ -15,6 +15,9 @@ app.get("/", async(req, res) => {
 
 //we will handle the post request
 
+app.get("/mens", async(req, res) => {
+    res.send("MensRanking");
+})
 
 
 app.listen(port, () => {
