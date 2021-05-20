@@ -1,0 +1,20 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/router/app.js",
+    "dev": "nodemon src/router/app.js -e js"
+  },
+  "author": "rozeena",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "mongoose": "^5.12.10",
+    "nodemon": "^2.0.7"
+  }
+}
